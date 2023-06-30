@@ -159,6 +159,9 @@ function showLista(lista, buttom = "all") {
         lista[16].classList.add('ativo');
         lista[17].classList.add('ativo');
         lista[18].classList.add('ativo');
+        lista[19].classList.add('ativo');
+        lista[20].classList.add('ativo');
+        lista[21].classList.add('ativo');
 
 
 
@@ -190,6 +193,9 @@ function showLista(lista, buttom = "all") {
         lista[16].classList.add('ativo');
         lista[17].classList.add('ativo');
         lista[18].classList.add('ativo');
+        lista[19].classList.add('ativo');
+        lista[20].classList.add('ativo');
+        lista[21].classList.add('ativo');
 
 
     }
@@ -215,3 +221,4 @@ buttonGeral.forEach((item) => {
         }
     })
 })
+
