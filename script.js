@@ -224,3 +224,46 @@ buttonGeral.forEach((item) => {
     })
 })
 
+const myservices = document.querySelectorAll(".my_services ul li")
+myservices.forEach(el => {
+
+    el.addEventListener("click", (evt) => {
+        console.log(evt.target)
+        gsap.fromTo(evt.target, {
+            duration: 4,
+            scale: 0.1,
+            y: 40,
+            ease: "power1.inOut",
+            repeat: 1
+
+        }, {
+            duration: 2,
+            scale: 1,
+            y: 0,
+            ease: "power1.in",
+            repeat: 0
+        })
+    })
+})
+
+gsap.fromTo(".box", {
+    color: "black",
+}, {
+    color: "white",
+    repeat: -1,
+    duration: 2,
+    yoyo: true,
+
+})
+
+gsap.to(".sobre_info i", {
+    color: "white ",
+    //     x: 0,
+    repeat: -1,
+    duration: 0.5,
+    yoyo: true,
+})
+
+
+
+
