@@ -224,6 +224,9 @@ buttonGeral.forEach((item) => {
     })
 })
 
+
+
+///brincando com animações com greensock
 const myservices = document.querySelectorAll(".my_services ul li")
 myservices.forEach(el => {
 
@@ -255,14 +258,44 @@ gsap.fromTo(".box", {
     yoyo: true,
 
 })
-
-gsap.to(".sobre_info i", {
-    color: "white ",
-    //     x: 0,
-    repeat: -1,
-    duration: 0.5,
+const wts = document.querySelectorAll(".sobre_info i")
+gsap.to(wts[4], {
+    color: "green",
+    repeat: - 1,
+    duration: 3,
     yoyo: true,
 })
+gsap.to(wts[1], {
+    color: "white",
+    repeat: - 1,
+    duration: 3,
+    yoyo: true,
+})
+gsap.to(wts[3], {
+    color: "blue",
+    repeat: - 1,
+    duration: 3,
+    yoyo: true,
+})
+
+gsap.fromTo(".footer_sociais li", {
+    border: "1px solid white",
+    rotation: 720,
+    duration: 6,
+    repeat: -1,
+    yoyo: true,
+    ease: "power1.inOut",
+
+}, {
+    ease: "power1.inOut",
+    border: "1px solid white",
+    rotation: -720,
+    duration: 6,
+    repeat: -1,
+    yoyo: true,
+})
+
+
 
 
 

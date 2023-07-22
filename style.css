@@ -847,7 +847,7 @@ main .sobre {
 }
 
 .projects_armazenamento ul li:hover {
-    scale: 110%;
+    /* scale: 110%; */
 
 }
 
