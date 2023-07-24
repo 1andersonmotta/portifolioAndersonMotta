@@ -7,6 +7,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+
 }
 
 p {
@@ -17,7 +18,7 @@ p {
 body {
     max-width: 1200px;
     /* background-color: #034a1fe7; */
-    background-color: #04034a;
+    /* background-color: #04034a; */
 
     margin: 0 auto;
 }
@@ -26,9 +27,7 @@ body {
 /* HEADER */
 
 header {
-    /* background-color: #000; */
-    background-color: #04034a;
-
+    background-color: #04034ae7;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -87,6 +86,8 @@ header .navegacao-primaria li a:hover::after {
 /* DOWNLOAD CV SECAO */
 
 .section-div {
+    background-color: #04034ae7;
+
     background: url(./images/dj.jpg);
     background-size: 120%;
     background-repeat: no-repeat;
@@ -173,22 +174,26 @@ header .navegacao-primaria li a:hover::after {
 
 main {
     /* background-color: #111; */
-    background-color: #04034a;
+    /* background-color: #04034a; */
+    background-color: #04034ae7;
 
     color: white;
 }
 
 main .sobre {
-    margin-top: 20px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     justify-content: center;
     padding: 40px;
+    /* background-color: #04034ae7; */
+
+
 }
 
 .sobre_titulo {
-    margin: 30px 0;
+    /* margin: 30px 0; */
     grid-column: 1/-1;
     text-align: center;
     color: #fff;
@@ -383,7 +388,7 @@ main .sobre {
 /* SEÇÃO SERVICES */
 
 .services {
-    margin-top: -30px;
+    margin-top: 0px;
     padding: 60px;
     /* background-color: #151515; */
     background-color: #04034ae7;
@@ -477,6 +482,8 @@ main .sobre {
 
 .my_resume {
     color: white;
+    background-color: #04034ae7;
+
 }
 
 .resume_generico {
@@ -552,7 +559,7 @@ main .sobre {
 
 .resume_generico .experience_content div h3 {
     font-family: 'Poppins';
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .resume_generico .experience_content div p {
@@ -789,7 +796,9 @@ main .sobre {
     display: grid;
     justify-content: center;
     gap: 80px;
-    background-color: #010225;
+    /* background-color: #010225; */
+    background-color: #04034ae7;
+
 }
 
 .projects ul {
@@ -877,15 +886,16 @@ main .sobre {
 }
 
 p.diferente {
+    margin-top: 20px;
     font-family: 'Poppins';
     text-shadow: 2px 2px 2px black;
-    /* color: white; */
 }
 
 div#diferencial {
     max-width: auto;
     height: 100%;
-    background-color: #010225;
+    background-color: #04034ae7;
+
     padding: 50px;
 }
 
@@ -893,7 +903,9 @@ div#diferencial {
 /*FOOTER*/
 
 footer {
-    background-color: #010225;
+    /* background-color: #010225; */
+    background-color: #04034ae7;
+
     padding: 30px;
 }
 
@@ -910,6 +922,7 @@ footer {
     background-color: #010225;
     border-radius: 50%;
     border: 1px solid #333333;
+    margin-top: 20px;
 }
 
 .footer_sociais li i {
@@ -947,4 +960,18 @@ footer .footer_comercial {
     background-color: rgba(255, 255, 255, 0.284) !important;
     position: absolute;
     border-radius: 100px;
+}
+
+#video-background {
+    color: #04034ae7;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* para manter a proporção do vídeo */
+    z-index: -1;
+    /* Colocar o vídeo atrás de outros elementos */
 }
