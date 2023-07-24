@@ -860,6 +860,7 @@ main .sobre {
     transition: .9s ease-in-out;
     z-index: 3;
     background-color: #010225;
+    height: fit-content;
 }
 
 
