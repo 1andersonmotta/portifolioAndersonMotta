@@ -278,22 +278,22 @@ gsap.to(wts[3], {
     yoyo: true,
 })
 
-gsap.fromTo(".footer_sociais li", {
-    border: "1px solid white",
-    rotation: 720,
-    duration: 6,
-    repeat: -1,
-    yoyo: true,
-    ease: "power1.inOut",
+// gsap.fromTo(".footer_sociais li", {
+//     border: "1px solid white",
+//     rotation: 720,
+//     duration: 6,
+//     repeat: -1,
+//     yoyo: true,
+//     ease: "power1.inOut",
 
-}, {
-    ease: "power1.inOut",
-    border: "1px solid white",
-    rotation: -720,
-    duration: 6,
-    repeat: -1,
-    yoyo: true,
-})
+// }, {
+//     ease: "power1.inOut",
+//     border: "1px solid white",
+//     rotation: -720,
+//     duration: 6,
+//     repeat: -1,
+//     yoyo: true,
+// })
 
 
 function random() {
@@ -313,15 +313,15 @@ function random() {
     })
 }
 
-function getRandomColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
-setInterval(random, 3000)
+// function getRandomColor() {
+//     const letters = '0123456789ABCDEF';
+//     let color = '#';
+//     for (let i = 0; i < 6; i++) {
+//         color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+// }
+// setInterval(random, 3000)
 
 
 
