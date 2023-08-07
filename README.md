@@ -1,4 +1,4 @@
-# Portfólio Anderson Motta
+# 👑 Portfólio Anderson Motta
 
 ![Se necessário atualize a página para carregamento do GIF](port1.gif)
 
@@ -16,6 +16,12 @@ Para teste local utilize a extensão LiveServer : ritwickdey.LiveServer
 ## Uso
 
 Abra o Nagevador copie e cole o link: portifolio-anderson-motta.netlify.app
+
+## 🛠 Ferramentas
+
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## Contribuição
 
