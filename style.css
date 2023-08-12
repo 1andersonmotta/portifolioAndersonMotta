@@ -342,6 +342,10 @@ main .sobre {
         background-size: cover;
     }
 
+    .section-div a {
+        width: max-content;
+    }
+
     header {
         justify-content: space-between;
         padding: 30px 70px;
