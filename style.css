@@ -421,6 +421,7 @@ main .sobre {
     align-content: center;
     height: 300px;
     background-color: #000000;
+    height: max-content;
 }
 
 .my_services ul li i {
