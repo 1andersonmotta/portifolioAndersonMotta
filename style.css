@@ -376,6 +376,7 @@ main .sobre {
         right: 20px;
         animation: sobeSecao .8s ease-in-out forwards;
     }
+
 }
 
 
@@ -425,7 +426,7 @@ main .sobre {
     align-content: center;
     height: 300px;
     background-color: #000000;
-    height: max-content;
+
 }
 
 .my_services ul li i {
