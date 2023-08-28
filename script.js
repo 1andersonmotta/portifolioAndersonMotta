@@ -164,6 +164,7 @@ function showLista(lista, buttom = "all") {
         lista[21].classList.add('ativo');
         lista[22].classList.add('ativo');
         lista[23].classList.add('ativo');
+        lista[24].classList.add('ativo');
 
 
 
@@ -201,6 +202,8 @@ function showLista(lista, buttom = "all") {
         lista[21].classList.add('ativo');
         lista[22].classList.add('ativo');
         lista[23].classList.add('ativo');
+        lista[24].classList.add('ativo');
+
 
 
     }
