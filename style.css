@@ -361,9 +361,7 @@ main .sobre {
     }
 
     header .navegacao-primaria.ativado {
-        /* background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724)); */
         background-color: #151515c3;
-
         position: absolute;
         display: grid;
         top: 80px;
@@ -392,6 +390,24 @@ main .sobre {
         justify-content: center;
         gap: 10px;
         text-align: center;
+        width: auto !important;
+
+    }
+
+    .projects_armazenamento {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects_armazenamento ul {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .projects_armazenamento ul li {
+        display: flex !important;
+        flex-direction: column;
     }
 
     .sobre img {
