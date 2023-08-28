@@ -436,14 +436,14 @@ main .sobre {
 
 .services {
     margin-top: 0px;
-    padding: 60px;
+    /* padding: 60px; */
     /* background-color: #151515; */
     background-color: #151515c3;
 
 }
 
 .my_services {
-    padding: 60px;
+    /* padding: 60px; */
     color: white;
 }
 
@@ -452,7 +452,8 @@ main .sobre {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-around;
 }
 
 .my_services ul li {
