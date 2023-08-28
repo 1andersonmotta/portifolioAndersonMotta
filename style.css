@@ -394,6 +394,10 @@ main .sobre {
 
     }
 
+    .projects:hover {
+        display: none;
+    }
+
     .projects_armazenamento {
         display: flex;
         align-items: center;
