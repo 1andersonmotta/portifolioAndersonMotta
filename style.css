@@ -381,6 +381,19 @@ main .sobre {
 
 
 @media(max-width: 992px) {
+    .funfacts ul {
+        display: grid;
+        grid-template-columns: none !important;
+    }
+
+    .projects ul {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+
     .sobre img {
         grid-column: 1/-1;
         justify-self: center;
