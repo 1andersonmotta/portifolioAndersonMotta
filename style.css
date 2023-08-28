@@ -398,6 +398,10 @@ main .sobre {
         display: none;
     }
 
+    .vermais {
+        display: none;
+    }
+
     .projects:hover {
         display: none;
     }
