@@ -394,6 +394,10 @@ main .sobre {
 
     }
 
+    .projects_models {
+        display: none;
+    }
+
     .projects:hover {
         display: none;
     }
