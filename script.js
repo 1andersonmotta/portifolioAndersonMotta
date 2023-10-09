@@ -165,6 +165,14 @@ function showLista(lista, buttom = "all") {
         lista[22].classList.add('ativo');
         lista[23].classList.add('ativo');
         lista[24].classList.add('ativo');
+        lista[25].classList.add('ativo');
+        lista[26].classList.add('ativo');
+        lista[27].classList.add('ativo');
+        lista[28].classList.add('ativo');
+        lista[29].classList.add('ativo');
+        lista[30].classList.add('ativo');
+        lista[31].classList.add('ativo');
+        lista[32].classList.add('ativo');
 
 
 
@@ -174,6 +182,13 @@ function showLista(lista, buttom = "all") {
         lista[9].classList.add('ativo');
         lista[16].classList.add('ativo');
         lista[23].classList.add('ativo');
+        lista[26].classList.add('ativo');
+        lista[27].classList.add('ativo');
+        lista[28].classList.add('ativo');
+        lista[29].classList.add('ativo');
+        lista[31].classList.add('ativo');
+        lista[32].classList.add('ativo');
+
 
 
     }
@@ -203,6 +218,15 @@ function showLista(lista, buttom = "all") {
         lista[22].classList.add('ativo');
         lista[23].classList.add('ativo');
         lista[24].classList.add('ativo');
+        lista[25].classList.add('ativo');
+        lista[26].classList.add('ativo');
+        lista[27].classList.add('ativo');
+        lista[28].classList.add('ativo');
+        lista[29].classList.add('ativo');
+        lista[30].classList.add('ativo');
+        lista[31].classList.add('ativo');
+        lista[32].classList.add('ativo');
+
 
 
 
