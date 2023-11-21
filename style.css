@@ -929,13 +929,7 @@ main .sobre {
 }
 
 .projects_armazenamento ul li:hover {
-    scale: 150%;
-    transition: .9s ease-in-out;
-    z-index: 3;
-    background-color: #000000;
-    height: fit-content;
-    border-radius: 5px;
-    padding: 5px;
+    text-shadow: 2px 2px 2px black;
 }
 
 
