@@ -12,7 +12,6 @@ function escrevendoLetra() {
 
     const titulo = document.querySelector('.digitando');
     ativaLetra(titulo);
-
     setInterval(() => { ativaLetra(titulo) }, 5000)
 }
 escrevendoLetra()
@@ -33,7 +32,6 @@ function sobreMim() {
     const liExperiencia = document.querySelectorAll('.experience_content ul li')
     const divEducation = document.querySelectorAll('.education_content div')
     const liEducation = document.querySelectorAll('.education_content ul li')
-
 
     divExperiencia[0].classList.add('ativo')
     divEducation[0].classList.add('ativo')
@@ -73,8 +71,6 @@ function sobreMim() {
             slideShow2(index)
         });
     });
-
-
 }
 
 sobreMim()
@@ -102,6 +98,7 @@ function show() {
     slideShow2(contador);
     return contador++
 }
+
 function clickou() {
     if (contador == 7) {
         slideShow2(7);
@@ -130,10 +127,8 @@ buttonGeral.forEach((event, index) => {
 })
 
 function showLista(lista, buttom = "all") {
-
     lista.forEach((item) => {
         item.classList.remove('ativo')
-
     })
     if (buttom == 'reais') {
         lista[0].classList.add('ativo');
@@ -142,7 +137,6 @@ function showLista(lista, buttom = "all") {
         lista[3].classList.add('ativo');
         lista[4].classList.add('ativo');
         lista[5].classList.add('ativo');
-
     }
     if (buttom == 'estudo') {
         lista[6].classList.add('ativo');
@@ -173,9 +167,6 @@ function showLista(lista, buttom = "all") {
         lista[30].classList.add('ativo');
         lista[31].classList.add('ativo');
         lista[32].classList.add('ativo');
-
-
-
     }
     if (buttom == 'website') {
         lista[8].classList.add('ativo');
@@ -188,9 +179,6 @@ function showLista(lista, buttom = "all") {
         lista[29].classList.add('ativo');
         lista[31].classList.add('ativo');
         lista[32].classList.add('ativo');
-
-
-
     }
     if (buttom == 'all') {
         lista[0].classList.add('ativo');
@@ -226,10 +214,6 @@ function showLista(lista, buttom = "all") {
         lista[30].classList.add('ativo');
         lista[31].classList.add('ativo');
         lista[32].classList.add('ativo');
-
-
-
-
     }
 }
 
@@ -253,7 +237,6 @@ buttonGeral.forEach((item) => {
         }
     })
 })
-
 
 
 ///brincando com animações com greensock
