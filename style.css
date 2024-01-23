@@ -652,7 +652,6 @@ main .sobre {
 /*CURSOS E SKILLS*/
 
 .cursos {
-    margin-top: 50px;
     align-items: center;
     display: column;
     padding: 30px;
@@ -695,7 +694,7 @@ main .sobre {
 }
 
 .skill_content {
-    font-size: 1.5rem;
+    font-size: 1rem;
     grid-column: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -705,7 +704,7 @@ main .sobre {
 
 .skill_content h3 {
     font-family: 'Poppins';
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .skill_content ul {
