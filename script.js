@@ -167,6 +167,7 @@ function showLista(lista, buttom = "all") {
         lista[30].classList.add('ativo');
         lista[31].classList.add('ativo');
         lista[32].classList.add('ativo');
+        lista[33].classList.add('ativo');
     }
     if (buttom == 'website') {
         lista[8].classList.add('ativo');
@@ -214,6 +215,7 @@ function showLista(lista, buttom = "all") {
         lista[30].classList.add('ativo');
         lista[31].classList.add('ativo');
         lista[32].classList.add('ativo');
+        lista[33].classList.add('ativo');
     }
 }
 
@@ -237,6 +239,7 @@ buttonGeral.forEach((item) => {
         }
     })
 })
+
 
 
 ///brincando com animações com greensock
