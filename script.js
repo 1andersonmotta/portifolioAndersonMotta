@@ -141,6 +141,7 @@ function showLista(lista, buttom = "all") {
         lista[7].classList.add('ativo');
         lista[8].classList.add('ativo');
         lista[9].classList.add('ativo');
+        lista[10].classList.add('ativo');
     }
     if (buttom == 'estudo') {
         lista[6].classList.add('ativo');
@@ -176,6 +177,7 @@ function showLista(lista, buttom = "all") {
         lista[35].classList.add('ativo');
         lista[36].classList.add('ativo');
         lista[37].classList.add('ativo');
+        lista[38].classList.add('ativo');
     }
     if (buttom == 'website') {
         lista[8].classList.add('ativo');
@@ -228,6 +230,7 @@ function showLista(lista, buttom = "all") {
         lista[35].classList.add('ativo');
         lista[36].classList.add('ativo');
         lista[37].classList.add('ativo');
+        lista[38].classList.add('ativo');
     }
 }
 
