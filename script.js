@@ -142,6 +142,7 @@ function showLista(lista, buttom = "all") {
         lista[8].classList.add('ativo');
         lista[9].classList.add('ativo');
         lista[10].classList.add('ativo');
+        lista[11].classList.add('ativo');
     }
     if (buttom == 'estudo') {
         lista[6].classList.add('ativo');
@@ -231,6 +232,7 @@ function showLista(lista, buttom = "all") {
         lista[36].classList.add('ativo');
         lista[37].classList.add('ativo');
         lista[38].classList.add('ativo');
+        lista[39].classList.add('ativo');
     }
 }
 
